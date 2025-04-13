@@ -1,0 +1,1015 @@
+{
+  "history": {
+    "easy": [
+      {
+        "id": "hist_easy_1",
+        "question": "Who was the first President of India?",
+        "options": [
+          "Dr. Rajendra Prasad",
+          "Jawaharlal Nehru",
+          "Sardar Patel",
+          "B.R. Ambedkar"
+        ],
+        "correctAnswer": "Dr. Rajendra Prasad",
+        "explanation": "Dr. Rajendra Prasad served as the first President of India from 1950 to 1962.",
+        "category": "history",
+        "difficulty": "easy"
+      },
+      {
+        "id": "hist_easy_2",
+        "question": "In which year did India gain independence?",
+        "options": [
+          "1945",
+          "1947",
+          "1950",
+          "1952"
+        ],
+        "correctAnswer": "1947",
+        "explanation": "India gained independence from British rule on August 15, 1947.",
+        "category": "history",
+        "difficulty": "easy"
+      },
+      {
+        "id": "hist_easy_3",
+        "question": "Who is known as the 'Father of the Nation' in India?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Mahatma Gandhi",
+          "Subhas Chandra Bose",
+          "Bhagat Singh"
+        ],
+        "correctAnswer": "Mahatma Gandhi",
+        "explanation": "Mahatma Gandhi is known as the 'Father of the Nation' for his role in India's independence movement through non-violent methods.",
+        "category": "history",
+        "difficulty": "easy"
+      },
+      {
+        "id": "hist_easy_4",
+        "question": "Which empire built the Taj Mahal?",
+        "options": [
+          "Maurya Empire",
+          "Gupta Empire",
+          "Mughal Empire",
+          "Maratha Empire"
+        ],
+        "correctAnswer": "Mughal Empire",
+        "explanation": "The Taj Mahal was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.",
+        "category": "history",
+        "difficulty": "easy"
+      },
+      {
+        "id": "hist_easy_5",
+        "question": "Which movement was started by Mahatma Gandhi in 1930?",
+        "options": [
+          "Quit India Movement",
+          "Non-Cooperation Movement",
+          "Salt Satyagraha",
+          "Swadeshi Movement"
+        ],
+        "correctAnswer": "Salt Satyagraha",
+        "explanation": "The Salt Satyagraha, also known as the Dandi March, was started by Gandhi in 1930 to protest against the British salt monopoly.",
+        "category": "history",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "hist_int_1",
+        "question": "Which Indian ruler established the Grand Trunk Road?",
+        "options": [
+          "Chandragupta Maurya",
+          "Ashoka the Great",
+          "Sher Shah Suri",
+          "Akbar the Great"
+        ],
+        "correctAnswer": "Sher Shah Suri",
+        "explanation": "Sher Shah Suri built the Grand Trunk Road (GT Road) in the 16th century, connecting Bengal to Peshawar.",
+        "category": "history",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "hist_int_2",
+        "question": "Who was the last Viceroy of India?",
+        "options": [
+          "Lord Mountbatten",
+          "Lord Wavell",
+          "Lord Linlithgow",
+          "Lord Curzon"
+        ],
+        "correctAnswer": "Lord Mountbatten",
+        "explanation": "Lord Mountbatten served as the last Viceroy of British India and oversaw the partition of India.",
+        "category": "history",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "hist_int_3",
+        "question": "Which battle marked the beginning of British rule in India?",
+        "options": [
+          "Battle of Plassey",
+          "Battle of Buxar",
+          "Battle of Panipat",
+          "Battle of Haldighati"
+        ],
+        "correctAnswer": "Battle of Plassey",
+        "explanation": "The Battle of Plassey in 1757 marked the beginning of British rule in India when the British East India Company defeated the Nawab of Bengal.",
+        "category": "history",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "hist_int_4",
+        "question": "Who founded the Mauryan Empire?",
+        "options": [
+          "Ashoka",
+          "Chandragupta Maurya",
+          "Bindusara",
+          "Bimbisara"
+        ],
+        "correctAnswer": "Chandragupta Maurya",
+        "explanation": "Chandragupta Maurya founded the Mauryan Empire in 322 BCE, establishing the first major empire in ancient India.",
+        "category": "history",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "hist_int_5",
+        "question": "Which revolutionary was associated with the Kakori Conspiracy?",
+        "options": [
+          "Bhagat Singh",
+          "Ram Prasad Bismil",
+          "Chandrasekhar Azad",
+          "Lala Lajpat Rai"
+        ],
+        "correctAnswer": "Ram Prasad Bismil",
+        "explanation": "Ram Prasad Bismil was the main leader of the Kakori Conspiracy, a train robbery that took place in 1925 to fund the revolutionary movement.",
+        "category": "history",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "hist_exp_1",
+        "question": "Which Indian king stopped the advance of Alexander the Great?",
+        "options": [
+          "Porus",
+          "Chandragupta Maurya",
+          "Ambhi",
+          "Dhana Nanda"
+        ],
+        "correctAnswer": "Porus",
+        "explanation": "King Porus (Puru) fought against Alexander in the Battle of the Hydaspes in 326 BCE, which made Alexander's army refuse to advance further into India.",
+        "category": "history",
+        "difficulty": "expert"
+      },
+      {
+        "id": "hist_exp_2",
+        "question": "Who wrote the Sanskrit text 'Arthashastra'?",
+        "options": [
+          "Chanakya",
+          "Kalidasa",
+          "Aryabhata",
+          "Panini"
+        ],
+        "correctAnswer": "Chanakya",
+        "explanation": "Chanakya (also known as Kautilya) wrote the Arthashastra, an ancient Indian treatise on statecraft, economic policy, and military strategy.",
+        "category": "history",
+        "difficulty": "expert"
+      },
+      {
+        "id": "hist_exp_3",
+        "question": "Which Chola king conquered maritime Southeast Asia?",
+        "options": [
+          "Raja Raja Chola I",
+          "Rajendra Chola I",
+          "Rajaraja Chola II",
+          "Kulothunga Chola I"
+        ],
+        "correctAnswer": "Rajendra Chola I",
+        "explanation": "Rajendra Chola I extended the Chola Empire to Southeast Asia, conquering parts of modern-day Indonesia, Malaysia, and Thailand.",
+        "category": "history",
+        "difficulty": "expert"
+      },
+      {
+        "id": "hist_exp_4",
+        "question": "Which treaty formally ended the Third Anglo-Maratha War?",
+        "options": [
+          "Treaty of Bassein",
+          "Treaty of Pune",
+          "Treaty of Salbai",
+          "Treaty of Gwalior"
+        ],
+        "correctAnswer": "Treaty of Pune",
+        "explanation": "The Treaty of Pune (1817) formally ended the Third Anglo-Maratha War and marked the end of the Maratha Empire.",
+        "category": "history",
+        "difficulty": "expert"
+      },
+      {
+        "id": "hist_exp_5",
+        "question": "Who was the founder of the Satavahana dynasty?",
+        "options": [
+          "Simuka",
+          "Gautamiputra Satakarni",
+          "Vashishtiputra Pulumavi",
+          "Yajna Sri Satakarni"
+        ],
+        "correctAnswer": "Simuka",
+        "explanation": "Simuka founded the Satavahana dynasty around 230 BCE and established their rule in the Deccan region.",
+        "category": "history",
+        "difficulty": "expert"
+      }
+    ]
+  },
+  "sports": {
+    "easy": [
+      {
+        "id": "sports_easy_1",
+        "question": "Who is known as the 'God of Cricket' in India?",
+        "options": [
+          "Sachin Tendulkar",
+          "Virat Kohli",
+          "Rahul Dravid",
+          "MS Dhoni"
+        ],
+        "correctAnswer": "Sachin Tendulkar",
+        "explanation": "Sachin Tendulkar is widely regarded as the 'God of Cricket' due to his extraordinary achievements and contribution to Indian cricket.",
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sports_easy_2",
+        "question": "In which year did India win its first Cricket World Cup?",
+        "options": [
+          "1975",
+          "1983",
+          "1987",
+          "2011"
+        ],
+        "correctAnswer": "1983",
+        "explanation": "India won its first Cricket World Cup in 1983 under the captaincy of Kapil Dev, defeating West Indies in the final at Lord's.",
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sports_easy_3",
+        "question": "Which sport is Saina Nehwal associated with?",
+        "options": [
+          "Tennis",
+          "Badminton",
+          "Table Tennis",
+          "Squash"
+        ],
+        "correctAnswer": "Badminton",
+        "explanation": "Saina Nehwal is a professional badminton player who has won numerous international titles and an Olympic bronze medal.",
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sports_easy_4",
+        "question": "Which Indian won the first individual Olympic medal for independent India?",
+        "options": [
+          "Milkha Singh",
+          "PT Usha",
+          "KD Jadhav",
+          "Karnam Malleswari"
+        ],
+        "correctAnswer": "KD Jadhav",
+        "explanation": "KD Jadhav won India's first individual Olympic medal (bronze) in wrestling at the 1952 Helsinki Olympics.",
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sports_easy_5",
+        "question": "Which team won the first Indian Premier League (IPL)?",
+        "options": [
+          "Chennai Super Kings",
+          "Mumbai Indians",
+          "Rajasthan Royals",
+          "Delhi Daredevils"
+        ],
+        "correctAnswer": "Rajasthan Royals",
+        "explanation": "Rajasthan Royals, led by Shane Warne, won the inaugural IPL season in 2008.",
+        "category": "sports",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "sports_int_1",
+        "question": "Who is the first Indian woman to win an Olympic silver medal?",
+        "options": [
+          "Mary Kom",
+          "PV Sindhu",
+          "Saina Nehwal",
+          "Karnam Malleswari"
+        ],
+        "correctAnswer": "PV Sindhu",
+        "explanation": "PV Sindhu won the silver medal in badminton at the 2016 Rio Olympics, becoming the first Indian woman to win an Olympic silver medal.",
+        "category": "sports",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sports_int_2",
+        "question": "Which Indian cricketer has taken the most Test wickets?",
+        "options": [
+          "Kapil Dev",
+          "Anil Kumble",
+          "Harbhajan Singh",
+          "Ravichandran Ashwin"
+        ],
+        "correctAnswer": "Anil Kumble",
+        "explanation": "Anil Kumble holds the record for most Test wickets by an Indian bowler with 619 wickets.",
+        "category": "sports",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sports_int_3",
+        "question": "Who was the first Indian to win a World Championship in Badminton?",
+        "options": [
+          "Prakash Padukone",
+          "Pullela Gopichand",
+          "PV Sindhu",
+          "Saina Nehwal"
+        ],
+        "correctAnswer": "PV Sindhu",
+        "explanation": "PV Sindhu became the first Indian to win a Badminton World Championship gold medal in 2019.",
+        "category": "sports",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sports_int_4",
+        "question": "Which Indian footballer has scored the most international goals?",
+        "options": [
+          "Sunil Chhetri",
+          "Bhaichung Bhutia",
+          "IM Vijayan",
+          "Jeje Lalpekhlua"
+        ],
+        "correctAnswer": "Sunil Chhetri",
+        "explanation": "Sunil Chhetri is India's all-time top scorer and is among the highest international goal scorers in active football.",
+        "category": "sports",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sports_int_5",
+        "question": "Who is the first Indian woman to win an Asian Games gold in 400m?",
+        "options": [
+          "PT Usha",
+          "Hima Das",
+          "Dutee Chand",
+          "Pinki Pramanik"
+        ],
+        "correctAnswer": "PT Usha",
+        "explanation": "PT Usha won the gold medal in 400m at the 1986 Asian Games in Seoul.",
+        "category": "sports",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "sports_exp_1",
+        "question": "Who holds the record for the highest individual score in Ranji Trophy?",
+        "options": [
+          "Bhausaheb Nimbalkar",
+          "Sanjay Manjrekar",
+          "VVS Laxman",
+          "Wasim Jaffer"
+        ],
+        "correctAnswer": "Bhausaheb Nimbalkar",
+        "explanation": "Bhausaheb Nimbalkar holds the record with an unbeaten 443 runs for Maharashtra against Kathiawar in 1948-49.",
+        "category": "sports",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sports_exp_2",
+        "question": "Which Indian chess player became the youngest Grandmaster in 2019?",
+        "options": [
+          "Praggnanandhaa",
+          "Gukesh D",
+          "Nihal Sarin",
+          "Raunak Sadhwani"
+        ],
+        "correctAnswer": "Gukesh D",
+        "explanation": "Gukesh D became India's youngest and the world's second-youngest Grandmaster at the age of 12 years, 7 months, and 17 days.",
+        "category": "sports",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sports_exp_3",
+        "question": "Who was the first Indian to win a Grand Prix in Formula One?",
+        "options": [
+          "Narain Karthikeyan",
+          "Karun Chandhok",
+          "Jehan Daruvala",
+          "None of the above"
+        ],
+        "correctAnswer": "None of the above",
+        "explanation": "No Indian driver has won a Formula One Grand Prix yet. Narain Karthikeyan and Karun Chandhok are the only Indians to have raced in F1.",
+        "category": "sports",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sports_exp_4",
+        "question": "Which Indian wrestler has won the most World Championship medals?",
+        "options": [
+          "Sushil Kumar",
+          "Bajrang Punia",
+          "Yogeshwar Dutt",
+          "Vinesh Phogat"
+        ],
+        "correctAnswer": "Bajrang Punia",
+        "explanation": "Bajrang Punia has won the most World Championship medals for India in wrestling with 1 silver and 3 bronze medals.",
+        "category": "sports",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sports_exp_5",
+        "question": "Who was the first Indian woman to win a medal in Paralympic Games?",
+        "options": [
+          "Deepa Malik",
+          "Avani Lekhara",
+          "Bhavina Patel",
+          "Malathi Holla"
+        ],
+        "correctAnswer": "Deepa Malik",
+        "explanation": "Deepa Malik became the first Indian woman to win a Paralympic medal when she won silver in shot put at the 2016 Rio Paralympics.",
+        "category": "sports",
+        "difficulty": "expert"
+      }
+    ]
+  },
+  "mythology": {
+    "easy": [
+      {
+        "id": "myth_easy_1",
+        "question": "Who is known as the king of gods in Hindu mythology?",
+        "options": ["Indra", "Agni", "Varun", "Surya"],
+        "correctAnswer": "Indra",
+        "explanation": "Indra is known as the king of gods (Devraj) and ruler of heaven (Swarga) in Hindu mythology.",
+        "category": "mythology",
+        "difficulty": "easy"
+      },
+      {
+        "id": "myth_easy_2",
+        "question": "Who is the goddess of wealth in Hindu mythology?",
+        "options": ["Lakshmi", "Saraswati", "Durga", "Kali"],
+        "correctAnswer": "Lakshmi",
+        "explanation": "Goddess Lakshmi is the Hindu goddess of wealth, fortune, and prosperity.",
+        "category": "mythology",
+        "difficulty": "easy"
+      },
+      {
+        "id": "myth_easy_3",
+        "question": "Which bird serves as Lord Vishnu's mount?",
+        "options": ["Garuda", "Peacock", "Swan", "Eagle"],
+        "correctAnswer": "Garuda",
+        "explanation": "Garuda is the mount (vahana) of Lord Vishnu and is depicted as a divine eagle-like creature.",
+        "category": "mythology",
+        "difficulty": "easy"
+      },
+      {
+        "id": "myth_easy_4",
+        "question": "Who wrote the Ramayana?",
+        "options": ["Valmiki", "Ved Vyasa", "Tulsidas", "Kalidas"],
+        "correctAnswer": "Valmiki",
+        "explanation": "The original Ramayana was written by Sage Valmiki in Sanskrit.",
+        "category": "mythology",
+        "difficulty": "easy"
+      },
+      {
+        "id": "myth_easy_5",
+        "question": "What weapon is Lord Shiva most associated with?",
+        "options": ["Trishul", "Chakra", "Bow", "Sword"],
+        "correctAnswer": "Trishul",
+        "explanation": "The Trishul (trident) is Lord Shiva's most iconic weapon, representing the three aspects of creation, preservation, and destruction.",
+        "category": "mythology",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "myth_int_1",
+        "question": "Who was Abhimanyu's mother?",
+        "options": ["Subhadra", "Draupadi", "Kunti", "Gandhari"],
+        "correctAnswer": "Subhadra",
+        "explanation": "Abhimanyu was the son of Arjuna and Subhadra, who was Lord Krishna's sister.",
+        "category": "mythology",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "myth_int_2",
+        "question": "Which demon king was a great devotee of Lord Shiva?",
+        "options": ["Ravana", "Hiranyakashipu", "Mahishasura", "Bhasmasura"],
+        "correctAnswer": "Ravana",
+        "explanation": "Ravana was a great devotee of Lord Shiva and composed the Shiva Tandava Stotram.",
+        "category": "mythology",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "myth_int_3",
+        "question": "Who was the guru of the Pandavas?",
+        "options": ["Dronacharya", "Kripacharya", "Sandipani", "Parashurama"],
+        "correctAnswer": "Dronacharya",
+        "explanation": "Dronacharya was the royal guru who taught warfare to both the Pandavas and Kauravas.",
+        "category": "mythology",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "myth_int_4",
+        "question": "Which avatar of Vishnu was born as the son of Jamadagni?",
+        "options": ["Parashurama", "Rama", "Krishna", "Vamana"],
+        "correctAnswer": "Parashurama",
+        "explanation": "Parashurama was born to sage Jamadagni and Renuka, and was the sixth avatar of Vishnu.",
+        "category": "mythology",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "myth_int_5",
+        "question": "Who was known as Shakuni's sister?",
+        "options": ["Gandhari", "Kunti", "Madri", "Amba"],
+        "correctAnswer": "Gandhari",
+        "explanation": "Gandhari was Shakuni's sister and later became the wife of Dhritarashtra and mother of the Kauravas.",
+        "category": "mythology",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "myth_exp_1",
+        "question": "What was the name of Arjuna's conch shell?",
+        "options": ["Devadatta", "Panchajanya", "Paundra", "Anantavijaya"],
+        "correctAnswer": "Devadatta",
+        "explanation": "Devadatta was the name of Arjuna's conch shell, which he blew before the start of the Kurukshetra war.",
+        "category": "mythology",
+        "difficulty": "expert"
+      },
+      {
+        "id": "myth_exp_2",
+        "question": "Who was the only Kaurava to survive the Kurukshetra war?",
+        "options": ["Yuyutsu", "Vikarna", "Dushasana", "Chitrasena"],
+        "correctAnswer": "Yuyutsu",
+        "explanation": "Yuyutsu was the only Kaurava to survive as he chose to fight on the Pandava side during the war.",
+        "category": "mythology",
+        "difficulty": "expert"
+      },
+      {
+        "id": "myth_exp_3",
+        "question": "What was the name of Ravana's father?",
+        "options": ["Vishrava", "Pulastya", "Sumali", "Malyavan"],
+        "correctAnswer": "Vishrava",
+        "explanation": "Ravana's father was sage Vishrava, who was the son of sage Pulastya.",
+        "category": "mythology",
+        "difficulty": "expert"
+      },
+      {
+        "id": "myth_exp_4",
+        "question": "Who was the mother of Ashwathama?",
+        "options": ["Kripi", "Kunti", "Gandhari", "Subhadra"],
+        "correctAnswer": "Kripi",
+        "explanation": "Kripi was the wife of Dronacharya and mother of Ashwathama. She was the sister of Kripacharya.",
+        "category": "mythology",
+        "difficulty": "expert"
+      },
+      {
+        "id": "myth_exp_5",
+        "question": "What was the original name of Bhishma?",
+        "options": ["Devavrata", "Gangaputra", "Shantanu", "Pratipa"],
+        "correctAnswer": "Devavrata",
+        "explanation": "Bhishma was originally named Devavrata. He got the name Bhishma after taking his terrible oath of lifelong celibacy.",
+        "category": "mythology",
+        "difficulty": "expert"
+      }
+    ]
+  },
+  "politics": {
+    "easy": [
+      {
+        "id": "pol_easy_1",
+        "question": "Who was the first woman Prime Minister of India?",
+        "options": ["Indira Gandhi", "Sonia Gandhi", "Sarojini Naidu", "Sushma Swaraj"],
+        "correctAnswer": "Indira Gandhi",
+        "explanation": "Indira Gandhi served as India's first and only female Prime Minister from 1966 to 1977 and again from 1980 until her assassination in 1984.",
+        "category": "politics",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pol_easy_2",
+        "question": "How many states are there in India?",
+        "options": ["28", "29", "30", "31"],
+        "correctAnswer": "28",
+        "explanation": "India has 28 states and 8 Union Territories as of 2023.",
+        "category": "politics",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pol_easy_3",
+        "question": "Who is known as the 'Iron Man of India'?",
+        "options": ["Sardar Vallabhbhai Patel", "Jawaharlal Nehru", "Lal Bahadur Shastri", "B.R. Ambedkar"],
+        "correctAnswer": "Sardar Vallabhbhai Patel",
+        "explanation": "Sardar Vallabhbhai Patel was known as the 'Iron Man of India' for his role in uniting the princely states into the Indian Union.",
+        "category": "politics",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pol_easy_4",
+        "question": "Which is the lower house of India's Parliament?",
+        "options": ["Lok Sabha", "Rajya Sabha", "Vidhan Sabha", "Legislative Council"],
+        "correctAnswer": "Lok Sabha",
+        "explanation": "The Lok Sabha is the lower house of India's bicameral Parliament.",
+        "category": "politics",
+        "difficulty": "easy"
+      },
+      {
+        "id": "pol_easy_5",
+        "question": "Who is known as the 'Father of Indian Constitution'?",
+        "options": ["B.R. Ambedkar", "Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel"],
+        "correctAnswer": "B.R. Ambedkar",
+        "explanation": "Dr. B.R. Ambedkar is known as the 'Father of Indian Constitution' as he was the chairman of the constitution drafting committee.",
+        "category": "politics",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pol_int_1",
+        "question": "What is the minimum age requirement to become the President of India?",
+        "options": ["25 years", "30 years", "35 years", "40 years"],
+        "correctAnswer": "35 years",
+        "explanation": "According to the Constitution of India, a person must be at least 35 years old to be eligible for the office of President.",
+        "category": "politics",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "pol_int_2",
+        "question": "Which article of the Indian Constitution abolishes untouchability?",
+        "options": ["Article 17", "Article 15", "Article 16", "Article 18"],
+        "correctAnswer": "Article 17",
+        "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form.",
+        "category": "politics",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "pol_int_3",
+        "question": "Who was India's first Deputy Prime Minister?",
+        "options": ["Sardar Vallabhbhai Patel", "Morarji Desai", "Charan Singh", "Devi Lal"],
+        "correctAnswer": "Sardar Vallabhbhai Patel",
+        "explanation": "Sardar Vallabhbhai Patel served as India's first Deputy Prime Minister from 1947 to 1950.",
+        "category": "politics",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "pol_int_4",
+        "question": "Which state has the highest number of Lok Sabha seats?",
+        "options": ["Uttar Pradesh", "Maharashtra", "Bihar", "West Bengal"],
+        "correctAnswer": "Uttar Pradesh",
+        "explanation": "Uttar Pradesh has the highest number of Lok Sabha seats (80) due to its large population.",
+        "category": "politics",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "pol_int_5",
+        "question": "What is the tenure of a Rajya Sabha member?",
+        "options": ["4 years", "5 years", "6 years", "7 years"],
+        "correctAnswer": "6 years",
+        "explanation": "Members of the Rajya Sabha are elected for a term of 6 years, with one-third of the members retiring every two years.",
+        "category": "politics",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "pol_exp_1",
+        "question": "Which schedule of the Indian Constitution deals with official languages?",
+        "options": ["Seventh", "Eighth", "Ninth", "Tenth"],
+        "correctAnswer": "Eighth",
+        "explanation": "The Eighth Schedule of the Indian Constitution lists the official languages recognized by the government.",
+        "category": "politics",
+        "difficulty": "expert"
+      },
+      {
+        "id": "pol_exp_2",
+        "question": "What is the 'Zero Hour' in Parliament?",
+        "options": [
+          "First hour of session",
+          "Time between Question Hour and regular business",
+          "Last hour of session",
+          "Lunch break"
+        ],
+        "correctAnswer": "Time between Question Hour and regular business",
+        "explanation": "Zero Hour is the time between Question Hour and regular business when members can raise matters of urgent public importance.",
+        "category": "politics",
+        "difficulty": "expert"
+      },
+      {
+        "id": "pol_exp_3",
+        "question": "Which amendment to the Constitution added the word 'Socialist' to the Preamble?",
+        "options": ["42nd", "44th", "46th", "48th"],
+        "correctAnswer": "42nd",
+        "explanation": "The 42nd Amendment Act (1976) added the words 'Socialist' and 'Secular' to the Preamble of the Indian Constitution.",
+        "category": "politics",
+        "difficulty": "expert"
+      },
+      {
+        "id": "pol_exp_4",
+        "question": "What is the minimum strength required for a political party to get official recognition in Lok Sabha?",
+        "options": ["10% of total seats", "2% of total seats", "55 seats", "10 seats"],
+        "correctAnswer": "10% of total seats",
+        "explanation": "A political party needs at least 10% of the total seats in the Lok Sabha to be recognized as a national party.",
+        "category": "politics",
+        "difficulty": "expert"
+      },
+      {
+        "id": "pol_exp_5",
+        "question": "Which article of the Constitution provides for the formation of new states?",
+        "options": ["Article 1", "Article 2", "Article 3", "Article 4"],
+        "correctAnswer": "Article 3",
+        "explanation": "Article 3 of the Indian Constitution gives Parliament the power to form new states and alter existing state boundaries.",
+        "category": "politics",
+        "difficulty": "expert"
+      }
+    ]
+  },
+  "bollywood": {
+    "easy": [
+      {
+        "id": "boll_easy_1",
+        "question": "Which was the first Indian talkie film?",
+        "options": ["Raja Harishchandra", "Alam Ara", "Mother India", "Sholay"],
+        "correctAnswer": "Alam Ara",
+        "explanation": "Alam Ara (1931) was India's first talkie film, directed by Ardeshir Irani.",
+        "category": "bollywood",
+        "difficulty": "easy"
+      },
+      {
+        "id": "boll_easy_2",
+        "question": "Who is known as the 'King of Bollywood'?",
+        "options": ["Shah Rukh Khan", "Amitabh Bachchan", "Salman Khan", "Aamir Khan"],
+        "correctAnswer": "Shah Rukh Khan",
+        "explanation": "Shah Rukh Khan is widely known as the 'King of Bollywood' or 'King Khan' due to his massive success and popularity.",
+        "category": "bollywood",
+        "difficulty": "easy"
+      },
+      {
+        "id": "boll_easy_3",
+        "question": "Which film won the first Filmfare Award for Best Film?",
+        "options": ["Do Bigha Zamin", "Awaara", "Mother India", "Shree 420"],
+        "correctAnswer": "Do Bigha Zamin",
+        "explanation": "Do Bigha Zamin (1953) won the first Filmfare Award for Best Film in 1954.",
+        "category": "bollywood",
+        "difficulty": "easy"
+      },
+      {
+        "id": "boll_easy_4",
+        "question": "Who directed 'Sholay'?",
+        "options": ["Ramesh Sippy", "Yash Chopra", "Raj Kapoor", "Mehboob Khan"],
+        "correctAnswer": "Ramesh Sippy",
+        "explanation": "Sholay (1975) was directed by Ramesh Sippy and is considered one of the greatest Indian films ever made.",
+        "category": "bollywood",
+        "difficulty": "easy"
+      },
+      {
+        "id": "boll_easy_5",
+        "question": "Which actress is known as the 'Dream Girl' of Bollywood?",
+        "options": ["Hema Malini", "Madhuri Dixit", "Sridevi", "Rekha"],
+        "correctAnswer": "Hema Malini",
+        "explanation": "Hema Malini is known as the 'Dream Girl' of Bollywood, a title she earned after her 1977 film 'Dream Girl'.",
+        "category": "bollywood",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "boll_int_1",
+        "question": "Which was India's first Oscar entry?",
+        "options": ["Mother India", "Guide", "Madhumati", "Awaara"],
+        "correctAnswer": "Mother India",
+        "explanation": "Mother India (1957) was India's first submission for the Academy Award for Best Foreign Language Film.",
+        "category": "bollywood",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "boll_int_2",
+        "question": "Who composed the music for 'Pakeezah'?",
+        "options": ["Ghulam Mohammed", "Naushad", "O.P. Nayyar", "S.D. Burman"],
+        "correctAnswer": "Ghulam Mohammed",
+        "explanation": "The iconic music of Pakeezah (1972) was composed by Ghulam Mohammed.",
+        "category": "bollywood",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "boll_int_3",
+        "question": "Which actor has won the most Filmfare Awards for Best Actor?",
+        "options": ["Shah Rukh Khan", "Dilip Kumar", "Amitabh Bachchan", "Raj Kapoor"],
+        "correctAnswer": "Shah Rukh Khan",
+        "explanation": "Shah Rukh Khan has won 8 Filmfare Awards for Best Actor, the highest in this category.",
+        "category": "bollywood",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "boll_int_4",
+        "question": "Who was the first Indian to win an Oscar?",
+        "options": ["Satyajit Ray", "Bhanu Athaiya", "A.R. Rahman", "Gulzar"],
+        "correctAnswer": "Bhanu Athaiya",
+        "explanation": "Bhanu Athaiya was the first Indian to win an Oscar for Best Costume Design for 'Gandhi' (1982).",
+        "category": "bollywood",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "boll_int_5",
+        "question": "Which film marked the debut of Yash Chopra as a director?",
+        "options": ["Dhool Ka Phool", "Waqt", "Daag", "Deewar"],
+        "correctAnswer": "Dhool Ka Phool",
+        "explanation": "Dhool Ka Phool (1959) was Yash Chopra's directorial debut.",
+        "category": "bollywood",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "boll_exp_1",
+        "question": "Who wrote the screenplay for 'Deewaar'?",
+        "options": ["Salim-Javed", "Gulzar", "K.A. Abbas", "Akhtar Mirza"],
+        "correctAnswer": "Salim-Javed",
+        "explanation": "The iconic screenplay of Deewaar (1975) was written by the duo Salim Khan and Javed Akhtar.",
+        "category": "bollywood",
+        "difficulty": "expert"
+      },
+      {
+        "id": "boll_exp_2",
+        "question": "Which film was India's first technicolor film?",
+        "options": ["Aan", "Jhansi Ki Rani", "Mother India", "Mughal-e-Azam"],
+        "correctAnswer": "Aan",
+        "explanation": "Aan (1952), directed by Mehboob Khan, was India's first technicolor film.",
+        "category": "bollywood",
+        "difficulty": "expert"
+      },
+      {
+        "id": "boll_exp_3",
+        "question": "Who was the cinematographer of 'Guide'?",
+        "options": ["Fali Mistry", "V.K. Murthy", "Subrata Mitra", "Marcus Bartley"],
+        "correctAnswer": "Fali Mistry",
+        "explanation": "Fali Mistry was the cinematographer for Guide (1965), known for its innovative camera work.",
+        "category": "bollywood",
+        "difficulty": "expert"
+      },
+      {
+        "id": "boll_exp_4",
+        "question": "Which was the first Indian film to be shot in CinemaScope?",
+        "options": ["Kaagaz Ke Phool", "Mother India", "Razia Sultan", "Sholay"],
+        "correctAnswer": "Kaagaz Ke Phool",
+        "explanation": "Kaagaz Ke Phool (1959) was the first Indian film to be shot in CinemaScope.",
+        "category": "bollywood",
+        "difficulty": "expert"
+      },
+      {
+        "id": "boll_exp_5",
+        "question": "Who designed the costumes for 'Mughal-e-Azam'?",
+        "options": ["Makhanlal", "Bhanu Athaiya", "Abu Jani-Sandeep Khosla", "Manish Malhotra"],
+        "correctAnswer": "Makhanlal",
+        "explanation": "Makhanlal was the costume designer for Mughal-e-Azam (1960), creating its iconic royal costumes.",
+        "category": "bollywood",
+        "difficulty": "expert"
+      }
+    ]
+  },
+  "science": {
+    "easy": [
+      {
+        "id": "sci_easy_1",
+        "question": "Who is known as the 'Father of Indian Nuclear Program'?",
+        "options": ["Homi J. Bhabha", "APJ Abdul Kalam", "Vikram Sarabhai", "C.V. Raman"],
+        "correctAnswer": "Homi J. Bhabha",
+        "explanation": "Dr. Homi J. Bhabha is known as the Father of Indian Nuclear Program for his pioneering contributions to nuclear physics.",
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_easy_2",
+        "question": "Which Indian scientist won the Nobel Prize in Physics?",
+        "options": ["C.V. Raman", "Satyendra Nath Bose", "Meghnad Saha", "Jagadish Chandra Bose"],
+        "correctAnswer": "C.V. Raman",
+        "explanation": "C.V. Raman won the Nobel Prize in Physics in 1930 for his work on light scattering (Raman Effect).",
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_easy_3",
+        "question": "What is India's first space observatory called?",
+        "options": ["Astrosat", "Chandrayaan", "Mangalyaan", "Aryabhata"],
+        "correctAnswer": "Astrosat",
+        "explanation": "Astrosat, launched in 2015, is India's first dedicated space observatory.",
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_easy_4",
+        "question": "Which organization is responsible for India's space program?",
+        "options": ["ISRO", "DRDO", "BARC", "CSIR"],
+        "correctAnswer": "ISRO",
+        "explanation": "The Indian Space Research Organisation (ISRO) is responsible for India's space program.",
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sci_easy_5",
+        "question": "What was India's first satellite called?",
+        "options": ["Aryabhata", "Bhaskara", "Rohini", "INSAT-1A"],
+        "correctAnswer": "Aryabhata",
+        "explanation": "Aryabhata was India's first satellite, launched on April 19, 1975.",
+        "category": "science",
+        "difficulty": "easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "sci_int_1",
+        "question": "Who discovered the Raman Effect?",
+        "options": ["C.V. Raman", "S.N. Bose", "M.N. Saha", "J.C. Bose"],
+        "correctAnswer": "C.V. Raman",
+        "explanation": "Sir C.V. Raman discovered the Raman Effect in 1928, which deals with the scattering of light.",
+        "category": "science",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sci_int_2",
+        "question": "Which Indian mathematician is known for the 'Zero'?",
+        "options": ["Aryabhata", "Brahmagupta", "Bhaskaracharya", "Varahamihira"],
+        "correctAnswer": "Brahmagupta",
+        "explanation": "Brahmagupta was the first to use zero as a number and develop rules for arithmetic operations involving zero.",
+        "category": "science",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sci_int_3",
+        "question": "Who is known as the father of Indian space program?",
+        "options": ["Vikram Sarabhai", "APJ Abdul Kalam", "Satish Dhawan", "U.R. Rao"],
+        "correctAnswer": "Vikram Sarabhai",
+        "explanation": "Dr. Vikram Sarabhai is considered the father of India's space program for his pioneering work in space research.",
+        "category": "science",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sci_int_4",
+        "question": "Which particles were first predicted by S.N. Bose?",
+        "options": ["Bosons", "Fermions", "Mesons", "Leptons"],
+        "correctAnswer": "Bosons",
+        "explanation": "Satyendra Nath Bose's work led to the discovery of bosons, particles that follow Bose-Einstein statistics.",
+        "category": "science",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "sci_int_5",
+        "question": "What is the name of India's Mars Orbiter Mission?",
+        "options": ["Mangalyaan", "Chandrayaan", "Astrosat", "Aditya"],
+        "correctAnswer": "Mangalyaan",
+        "explanation": "Mangalyaan, also known as Mars Orbiter Mission (MOM), was India's first interplanetary mission.",
+        "category": "science",
+        "difficulty": "intermediate"
+      }
+    ],
+    "expert": [
+      {
+        "id": "sci_exp_1",
+        "question": "Who developed the Saha Ionization Equation?",
+        "options": ["Meghnad Saha", "C.V. Raman", "S.N. Bose", "H.J. Bhabha"],
+        "correctAnswer": "Meghnad Saha",
+        "explanation": "Meghnad Saha developed the Saha Ionization Equation which explains the ionization states of elements in stellar atmospheres.",
+        "category": "science",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sci_exp_2",
+        "question": "Which Indian scientist worked on wireless communication before Marconi?",
+        "options": ["Jagadish Chandra Bose", "C.V. Raman", "Satyendra Nath Bose", "Meghnad Saha"],
+        "correctAnswer": "Jagadish Chandra Bose",
+        "explanation": "J.C. Bose demonstrated wireless communication using microwaves in 1895, before Marconi's radio communication.",
+        "category": "science",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sci_exp_3",
+        "question": "What is the name of India's solar mission?",
+        "options": ["Aditya-L1", "Surya-1", "Helios", "Solar Orbiter"],
+        "correctAnswer": "Aditya-L1",
+        "explanation": "Aditya-L1 is India's first solar mission to study the Sun's corona and solar wind.",
+        "category": "science",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sci_exp_4",
+        "question": "Who discovered cosmic rays in India?",
+        "options": ["D.M. Bose", "H.J. Bhabha", "S.N. Bose", "M.N. Saha"],
+        "correctAnswer": "D.M. Bose",
+        "explanation": "D.M. Bose discovered cosmic rays using photographic plates at high altitudes in India.",
+        "category": "science",
+        "difficulty": "expert"
+      },
+      {
+        "id": "sci_exp_5",
+        "question": "Which Indian mathematician gave the 'cyclic method' for solving algebraic equations?",
+        "options": ["Aryabhata", "Brahmagupta", "Bhaskaracharya", "Varahamihira"],
+        "correctAnswer": "Bhaskaracharya",
+        "explanation": "Bhaskaracharya developed the cyclic method (Chakravala method) for solving indeterminate quadratic equations.",
+        "category": "science",
+        "difficulty": "expert"
+      }
+    ]
+  }
+} 
