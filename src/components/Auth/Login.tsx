@@ -8,7 +8,11 @@ import {
   Button,
   Typography,
   Box,
-  Alert
+  Alert,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions
 } from '@mui/material';
 
 export default function Login() {
@@ -16,7 +20,9 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
+  const [showGuestDialog, setShowGuestDialog] = useState(false);
+  const [guestName, setGuestName] = useState('');
+  const { login, guestLogin } = useAuth();
   const navigate = useNavigate();
 
   async function handleSubmit(e: React.FormEvent) {
@@ -26,12 +32,21 @@ export default function Login() {
       setError('');
       setLoading(true);
       await login(email, password);
-      navigate('/dashboard');
+      navigate('/');
     } catch (error) {
       setError('Failed to sign in');
     }
     setLoading(false);
   }
+
+  const handleGuestLogin = () => {
+    if (!guestName.trim()) {
+      setError('Please enter a name');
+      return;
+    }
+    guestLogin(guestName.trim());
+    navigate('/');
+  };
 
   return (
     <Container maxWidth="sm">
@@ -40,7 +55,7 @@ export default function Login() {
           <Typography variant="h4" component="h1" gutterBottom>
             Login
           </Typography>
-          {error && <Alert severity="error">{error}</Alert>}
+          {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
           <Box component="form" onSubmit={handleSubmit} sx={{ mt: 2 }}>
             <TextField
               label="Email"
@@ -70,7 +85,23 @@ export default function Login() {
               Login
             </Button>
           </Box>
-          <Box sx={{ mt: 2 }}>
+          <Box sx={{ mt: 3, display: 'flex', flexDirection: 'column', gap: 1 }}>
+            <Button
+              fullWidth
+              variant="outlined"
+              onClick={() => setShowGuestDialog(true)}
+              sx={{ 
+                borderColor: 'success.main',
+                color: 'success.main',
+                '&:hover': {
+                  borderColor: 'success.dark',
+                  backgroundColor: 'success.light',
+                  color: 'success.dark'
+                }
+              }}
+            >
+              Continue as Guest
+            </Button>
             <Button
               fullWidth
               variant="text"
@@ -81,6 +112,28 @@ export default function Login() {
           </Box>
         </Paper>
       </Box>
+
+      {/* Guest Name Dialog */}
+      <Dialog open={showGuestDialog} onClose={() => setShowGuestDialog(false)}>
+        <DialogTitle>Enter Your Name</DialogTitle>
+        <DialogContent>
+          <TextField
+            autoFocus
+            margin="dense"
+            label="Name"
+            fullWidth
+            value={guestName}
+            onChange={(e) => setGuestName(e.target.value)}
+            sx={{ mt: 1 }}
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setShowGuestDialog(false)}>Cancel</Button>
+          <Button onClick={handleGuestLogin} variant="contained" color="success">
+            Start Playing
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Container>
   );
 } 

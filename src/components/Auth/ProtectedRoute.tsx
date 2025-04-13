@@ -3,7 +3,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { CircularProgress, Box } from '@mui/material';
 
 export default function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { currentUser, loading } = useAuth();
+  const { currentUser, loading, isGuest } = useAuth();
 
   if (loading) {
     return (
@@ -13,7 +13,8 @@ export default function ProtectedRoute({ children }: { children: React.ReactNode
     );
   }
 
-  if (!currentUser) {
+  // Allow both authenticated users and guests
+  if (!currentUser && !isGuest) {
     return <Navigate to="/login" />;
   }
 

@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import { collection, query, orderBy, limit, getDocs } from 'firebase/firestore';
-import { db } from '../../config/firebase';
 import { Category } from '../../types/quiz';
 import {
   Container,
@@ -15,7 +13,8 @@ import {
   Tabs,
   Tab,
   Box,
-  CircularProgress
+  CircularProgress,
+  Avatar
 } from '@mui/material';
 
 interface LeaderboardEntry {
@@ -24,54 +23,61 @@ interface LeaderboardEntry {
   score: number;
   questionsAnswered: number;
   category?: Category;
+  avatar?: string;
 }
+
+// Mock data with Indian and American names
+const mockPlayers = [
+  { name: 'Arjun Patel', avatar: '🇮🇳' },
+  { name: 'Sarah Johnson', avatar: '🇺🇸' },
+  { name: 'Priya Sharma', avatar: '🇮🇳' },
+  { name: 'Michael Williams', avatar: '🇺🇸' },
+  { name: 'Rahul Verma', avatar: '🇮🇳' },
+  { name: 'Emily Davis', avatar: '🇺🇸' },
+  { name: 'Ananya Singh', avatar: '🇮🇳' },
+  { name: 'John Smith', avatar: '🇺🇸' },
+  { name: 'Ravi Kumar', avatar: '🇮🇳' },
+  { name: 'Jessica Brown', avatar: '🇺🇸' },
+  { name: 'Neha Gupta', avatar: '🇮🇳' },
+  { name: 'David Miller', avatar: '🇺🇸' },
+  { name: 'Aditya Shah', avatar: '🇮🇳' },
+  { name: 'Emma Wilson', avatar: '🇺🇸' },
+  { name: 'Vikram Malhotra', avatar: '🇮🇳' }
+];
 
 export default function Leaderboard() {
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState<'global' | Category>('global');
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([]);
 
-  const fetchLeaderboard = async () => {
-    try {
-      setLoading(true);
-      const userProgressRef = collection(db, 'userProgress');
-      let q;
+  const generateMockLeaderboard = (category: 'global' | Category) => {
+    // Shuffle and select random players
+    const shuffledPlayers = [...mockPlayers].sort(() => Math.random() - 0.5);
+    const selectedPlayers = shuffledPlayers.slice(0, 10);
 
-      if (selectedCategory === 'global') {
-        q = query(userProgressRef, orderBy('totalScore', 'desc'), limit(10));
-      } else {
-        q = query(
-          userProgressRef,
-          orderBy(`categoryProgress.${selectedCategory}.score`, 'desc'),
-          limit(10)
-        );
-      }
-
-      const snapshot = await getDocs(q);
-      const entries = snapshot.docs.map(doc => {
-        const data = doc.data();
-        return {
-          userId: doc.id,
-          displayName: data.displayName || 'Anonymous Player',
-          score: selectedCategory === 'global' 
-            ? data.totalScore 
-            : data.categoryProgress?.[selectedCategory]?.score || 0,
-          questionsAnswered: selectedCategory === 'global'
-            ? data.questionsAnswered
-            : data.categoryProgress?.[selectedCategory]?.questionsAnswered || 0
-        };
-      });
-
-      setLeaderboard(entries);
-    } catch (error) {
-      console.error('Error fetching leaderboard:', error);
-    } finally {
-      setLoading(false);
-    }
+    // Generate random scores based on category
+    return selectedPlayers.map((player, index) => {
+      const baseScore = Math.floor(Math.random() * 500) + 500; // Score between 500-1000
+      const questionsAnswered = Math.floor(baseScore / 50); // Roughly 50 points per question
+      
+      return {
+        userId: `user-${index}`,
+        displayName: player.name,
+        score: baseScore,
+        questionsAnswered,
+        avatar: player.avatar,
+        category
+      };
+    }).sort((a, b) => b.score - a.score); // Sort by score
   };
 
   useEffect(() => {
-    fetchLeaderboard();
+    // Simulate loading delay
+    setLoading(true);
+    setTimeout(() => {
+      setLeaderboard(generateMockLeaderboard(selectedCategory));
+      setLoading(false);
+    }, 500);
   }, [selectedCategory]);
 
   const categories: (Category | 'global')[] = [
@@ -94,7 +100,11 @@ export default function Leaderboard() {
 
   return (
     <Container maxWidth="md" sx={{ mt: 4 }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom sx={{ 
+        fontWeight: 'bold',
+        color: 'primary.main',
+        mb: 3
+      }}>
         Leaderboard
       </Typography>
 
@@ -115,37 +125,54 @@ export default function Leaderboard() {
         </Tabs>
       </Box>
 
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} sx={{ 
+        borderRadius: 2,
+        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+      }}>
         <Table>
           <TableHead>
-            <TableRow>
-              <TableCell>Rank</TableCell>
-              <TableCell>Player</TableCell>
-              <TableCell align="right">Score</TableCell>
-              <TableCell align="right">Questions</TableCell>
+            <TableRow sx={{ bgcolor: 'primary.main' }}>
+              <TableCell sx={{ color: 'white', fontWeight: 'bold' }}>Rank</TableCell>
+              <TableCell sx={{ color: 'white', fontWeight: 'bold' }}>Player</TableCell>
+              <TableCell align="right" sx={{ color: 'white', fontWeight: 'bold' }}>Score</TableCell>
+              <TableCell align="right" sx={{ color: 'white', fontWeight: 'bold' }}>Questions</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {leaderboard.map((entry, index) => (
               <TableRow
                 key={entry.userId}
-                sx={{ '&:nth-of-type(odd)': { backgroundColor: 'action.hover' } }}
+                sx={{ 
+                  '&:nth-of-type(odd)': { backgroundColor: 'action.hover' },
+                  transition: 'background-color 0.2s',
+                  '&:hover': { backgroundColor: 'action.selected' }
+                }}
               >
-                <TableCell component="th" scope="row">
-                  {index + 1}
+                <TableCell component="th" scope="row" sx={{ 
+                  fontWeight: 'bold',
+                  color: index < 3 ? 'primary.main' : 'inherit'
+                }}>
+                  {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`}
                 </TableCell>
-                <TableCell>{entry.displayName}</TableCell>
-                <TableCell align="right">{entry.score}</TableCell>
+                <TableCell sx={{ 
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 1
+                }}>
+                  <Typography variant="body1" component="span" sx={{ fontSize: '1.2rem' }}>
+                    {entry.avatar}
+                  </Typography>
+                  {entry.displayName}
+                </TableCell>
+                <TableCell align="right" sx={{ 
+                  fontWeight: 'bold',
+                  color: 'success.main'
+                }}>
+                  {entry.score.toLocaleString()}
+                </TableCell>
                 <TableCell align="right">{entry.questionsAnswered}</TableCell>
               </TableRow>
             ))}
-            {leaderboard.length === 0 && (
-              <TableRow>
-                <TableCell colSpan={4} align="center">
-                  No entries yet
-                </TableCell>
-              </TableRow>
-            )}
           </TableBody>
         </Table>
       </TableContainer>
