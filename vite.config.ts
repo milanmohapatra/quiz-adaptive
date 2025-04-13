@@ -11,4 +11,16 @@ export default defineConfig({
     },
   },
   assetsInclude: ['**/*.mp3'], // Add support for MP3 files
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'mui-vendor': ['@mui/material', '@mui/icons-material']
+        }
+      }
+    }
+  },
+  base: './'
 })
