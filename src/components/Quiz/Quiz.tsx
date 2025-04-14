@@ -298,9 +298,6 @@ const Quiz: React.FC = () => {
     // For multiplayer, or if it's player 2's move
     if (isMultiplayer) {
       setShowAnswer(true);
-      setTimeout(() => {
-        handleNextQuestion();
-      }, 2000);
     }
 
     // Update user progress only if we have a logged in user
@@ -316,20 +313,35 @@ const Quiz: React.FC = () => {
   };
 
   const handleNextQuestion = () => {
-    if (currentQuestionIndex + 1 >= QUESTIONS_PER_GAME) {
+    const nextQuestionIndex = currentQuestionIndex + 1;
+    
+    if (nextQuestionIndex >= QUESTIONS_PER_GAME) {
       setGameOver(true);
-    } else {
-      setCurrentQuestionIndex(prev => prev + 1);
-      player1.selectedAnswer = '';
-      player1.hasAnswered = false;
-      player2.selectedAnswer = '';
-      player2.hasAnswered = false;
-      setShowAnswer(false);
-      setCurrentQuestion(questions[currentQuestionIndex + 1]);
-      setTimeRemaining(MAX_QUESTION_TIME);
-      setTimerActive(true);
-      setQuestionStartTime(Date.now());
+      return;
     }
+
+    // Set up the next question before updating the index
+    const nextQuestion = questions[nextQuestionIndex];
+    if (!nextQuestion) {
+      console.error('Next question not found');
+      setGameOver(true);
+      return;
+    }
+
+    setCurrentQuestion(nextQuestion);
+    setCurrentQuestionIndex(nextQuestionIndex);
+    
+    // Reset player states
+    player1.selectedAnswer = '';
+    player1.hasAnswered = false;
+    player2.selectedAnswer = '';
+    player2.hasAnswered = false;
+    
+    // Reset question states
+    setShowAnswer(false);
+    setTimeRemaining(MAX_QUESTION_TIME);
+    setTimerActive(true);
+    setQuestionStartTime(Date.now());
   };
 
   const getFunnyComment = () => {
