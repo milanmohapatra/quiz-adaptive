@@ -1,9 +1,13 @@
 {
+  "version": 2,
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "public": true,
+  "github": {
+    "silent": true
+  },
   "rewrites": [
     {
       "source": "/(.*)",
